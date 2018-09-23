@@ -1,3 +1,6 @@
+-[I DO NOT OFFER SUPPORT FOR A18 VERSION OF THIS MOD. I AM CURRENTLY WORKING ON THE B19 VERSION WHICH WILL BE POSTED HERE ONCE IT IS FINISHED]-
+
+
 # SFGrimReality
 A Rimworld mod for more realistic emotional responses.
 <?xml version="1.0" encoding="utf-8"?>
