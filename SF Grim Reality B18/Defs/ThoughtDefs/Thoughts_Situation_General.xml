@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>LowExpectations</defName>
+    <workerClass>ThoughtWorker_Expectations</workerClass>
+    <stages>
+      <li>
+        <label>moderate expectations</label>
+        <description>I can make do with what I have for now. It'll get better soon.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>low expectations</label>
+        <description>The situation is bleak, but maybe it will get better one day.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>very low expectations</label>
+        <description>My goal is to survive. Anything nicer than that is just fortunate.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>extremely low expectations</label>
+        <description>I'm lucky to be alive. I can't expect anything more.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+    <validWhileDespawned>true</validWhileDespawned>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>EnvironmentDark</defName>
+    <workerClass>ThoughtWorker_Dark</workerClass>
+    <stages>
+      <li>
+        <label>in darkness</label>
+        <description>It's so dark. Can't we get a little light?</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>CabinFever</defName>
+    <workerClass>ThoughtWorker_CabinFever</workerClass>
+    <stages>
+      <li>
+        <label>cabin fever (mild)</label>
+        <description>I'm going crazy in here! I need some fresh air!</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+       <li>
+        <label>cabin fever (serious)</label>
+        <description>I can't take being stuck inside any longer! Let me out!</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>   
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ApparelDamaged</defName>
+    <workerClass>ThoughtWorker_ApparelDamaged</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>wearing worn-out apparel</label>
+        <description>My outfit is looking pretty bad. Can't I get something decent to wear?</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>wearing tattered apparel</label>
+        <description>I'm wearing a tattered piece of trash. Can't I get something decent to wear?</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>DeadMansApparel</defName>
+    <workerClass>ThoughtWorker_DeadMansApparel</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>dead man's {0}</label>
+        <description>I am wearing apparel that someone died in. It creeps me out and feels dirty.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+			<li>
+				<label>dead man's {0} (+1)</label>
+				<description>I am wearing two pieces of apparel that someone died in. It creeps me out and feels dirty.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<li>
+				<label>dead man's {0} (+2)</label>
+				<description>I am wearing three pieces of apparel that someone died in. It creeps me out and feels dirty.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>dead man's {0} etc</label>
+				<description>I am wearing more than three pieces of apparel that someone died in. It creeps me out and feels dirty.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+    </stages>
+		<nullifyingTraits>
+			<li>Bloodlust</li>
+		</nullifyingTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>HumanLeatherApparelSad</defName>
+    <workerClass>ThoughtWorker_HumanLeatherApparel</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>human leather {0}</label>
+        <description>Wearing human leather is disturbing. Who could do this?</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+			<li>
+				<label>human leather {0} (+1)</label>
+				<description>I'm dressed like an insane person.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>human leather {0} (+2)</label>
+				<description>I think there may be a face on my clothes...</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>human leather {0} etc</label>
+				<description>I look like a freak from a horror show, and I feel like I'm in a horror show.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+    </stages>
+		<nullifyingTraits>
+			<li>Bloodlust</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+  </ThoughtDef>
+	
+  <ThoughtDef>
+    <defName>HumanLeatherApparelHappy</defName>
+    <workerClass>ThoughtWorker_HumanLeatherApparel</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>human leather {0}</label>
+        <description>They wear and eat animals, I wear and eat people. What?</description>
+        <baseMoodEffect>+1</baseMoodEffect>
+      </li>
+			<li>
+				<label>human leather {0} (+1)</label>
+				<description>Wearing the skin of humans just feels...right.</description>
+				<baseMoodEffect>+2</baseMoodEffect>
+			</li>
+			<li>
+				<label>human leather {0} (+2)</label>
+				<description>Humans are no better than animals. Why shouldn't I wear their skin?</description>
+				<baseMoodEffect>+5</baseMoodEffect>
+			</li>
+			<li>
+				<label>human leather {0} etc</label>
+				<description>I finally have clothes that really suit me.</description>
+				<baseMoodEffect>+8</baseMoodEffect>
+			</li>
+    </stages>
+		<requiredTraits>
+			<li>Cannibal</li>
+		</requiredTraits>
+  </ThoughtDef>
+	
+  <ThoughtDef>
+    <defName>Sick</defName>
+    <workerClass>ThoughtWorker_Sick</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>sick</label>
+        <description>I don't feel so well...</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>EnvironmentCold</defName>
+    <workerClass>ThoughtWorker_Cold</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>cold</label>
+        <description>I'm too cold.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+       <li>
+        <label>very cold</label>
+        <description>So cold...I have to get warm soon.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>   
+        <li>
+        <label>freezing</label>
+        <description>F-f-freezing. I have to get warm, now!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>EnvironmentHot</defName>
+    <workerClass>ThoughtWorker_Hot</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>hot</label>
+        <description>I'm too hot.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>very hot</label>
+        <description>It's way too hot!</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>    
+        <li>
+        <label>extremely hot</label>
+        <description>It's so hot I can't stand it! I'm starting to feel delirious!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>burning up</label>
+        <description>I'm burning up! Am I dying? I must be!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>     
+    </stages>
+  </ThoughtDef>
+
+</Defs>

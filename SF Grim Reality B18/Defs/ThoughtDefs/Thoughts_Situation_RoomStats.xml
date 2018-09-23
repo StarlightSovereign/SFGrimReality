@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>PrisonCell</defName>
+    <workerClass>ThoughtWorker_PrisonCellImpressiveness</workerClass>
+    <stages>
+      <li>
+        <label>awful prison cell</label>
+        <description>This cell is unbearably awful.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li IsNull="True" /> <!-- dull -->
+      <li IsNull="True" /> <!-- mediocre -->
+      <li>
+        <label>decent prison cell</label>
+        <description>This cell is bearable.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>slightly impressive prison cell</label>
+        <description>My cell isn't so bad.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>impressive prison cell</label>
+        <description>This cell is actually really nice.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>very impressive prison cell</label>
+        <description>I can't believe they're keeping me in such a nice cell.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>extremely impressive prison cell</label>
+        <description>This cell is better than anywhere else I've lived.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>unbelievably impressive prison cell</label>
+        <description>If this is prison, how great are their citizen's homes?</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>wondrously impressive prison cell</label>
+        <description>This is a prison? It's the most wonderful room I've ever seen. Maybe I should just stay here!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PrisonBarracks</defName>
+    <workerClass>ThoughtWorker_PrisonBarracksImpressiveness</workerClass>
+    <stages>
+      <li>
+        <label>awful barrack</label>
+        <description>What a horrible prison. I wish I at least had my own cell.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+			<li>
+				<label>dull barrack</label>
+				<description>I wish I had my own cell.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+      <li IsNull="True" /> <!-- mediocre -->
+      <li IsNull="True" /> <!-- decent -->
+      <li>
+				<label>slightly impressive barrack</label>
+        <description>This prison isn't so bad. I wish I had my own cell, though.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>somewhat impressive barrack</label>
+        <description>This is a pretty nice prison. If I had my own cell it wouldn't be so bad.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>very impressive barrack</label>
+        <description>This is a really nice prison. I still wish I had my own cell.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>extremely impressive barrack</label>
+        <description>I can't believe they are keeping me in a place like this. I just wish I had my own cell.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>unbelievably impressive barrack</label>
+        <description>This prison is amazing. If I had my own room, I would barely mind living here.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>wondrously impressive barrack</label>
+        <description>Even without a cell of my own, this prison is a wonderful place to live.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+	<ThoughtDef>
+		<defName>HospitalPatientRoomStats</defName>
+		<workerClass>ThoughtWorker_HospitalPatientRoomStats</workerClass>
+		<stages>		
+			<li>
+				<label>awful hospital</label>
+				<description>This hospital is dreadful.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+			<li>
+				<label>dull hospital</label>
+				<description>This hospital is unacceptable.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li IsNull="True" />
+			<!-- mediocre -->
+			<li IsNull="True" />
+			<!-- decent -->
+			<li>
+				<label>slightly impressive hospital</label>
+				<description>This hospital is alright.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>somewhat impressive hospital</label>
+				<description>This hospital is nice. I'm glad to be treated here.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>very impressive hospital</label>
+				<description>This is a great hospital. It helps me feel better.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>extremely impressive hospital</label>
+				<description>This hospital is fantastic. I feel better just being here.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+			<li>
+				<label>unbelievably impressive hospital</label>
+				<description>This hospital is incredible. I love it here!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>wondrously impressive hospital</label>
+				<description>This is the best hospital ever! I almost wish I could just live here!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

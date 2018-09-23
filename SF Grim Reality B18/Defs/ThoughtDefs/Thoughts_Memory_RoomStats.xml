@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>AteInImpressiveDiningRoom</defName>
+		<durationDays>0.35</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li IsNull="True" />
+			<!-- awful -->
+			<li IsNull="True" />
+			<!-- dull -->
+			<li IsNull="True" />
+			<!-- mediocre -->
+			<li>
+				<label>decent dining room</label>
+				<description>I ate my meal in a decent dining room.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>slightly impressive dining room</label>
+				<description>I ate my meal in a slightly impressive dining room.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>somewhat impressive dining room</label>
+				<description>I ate my meal in an impressive dining room.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+			<li>
+				<label>very impressive dining room</label>
+				<description>I ate my meal in a very impressive dining room.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>extremely impressive dining room</label>
+				<description>I ate my meal in an extremely impressive dining room. I could stay there forever.</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+			<li>
+				<label>unbelievably impressive dining room</label>
+				<description>I ate my meal in an unbelievably impressive dining room. I could stay there forever.</description>
+				<baseMoodEffect>7</baseMoodEffect>
+			</li>
+			<li>
+				<label>wondrously impressive dining room</label>
+				<description>I ate my meal in a wonderful dining room. I could stay there forever.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>JoyActivityInImpressiveRecRoom</defName>
+		<durationDays>0.35</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li IsNull="True" />
+			<!-- awful -->
+			<li IsNull="True" />
+			<!-- dull -->
+			<li IsNull="True" />
+			<!-- mediocre -->
+			<li>
+				<label>decent rec room</label>
+				<description>I had fun in a decent rec room.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>slightly impressive rec room</label>
+				<description>I had fun in a nice rec room.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>somewhat impressive rec room</label>
+				<description>I had a great time in an impressive rec room.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+			<li>
+				<label>very impressive rec room</label>
+				<description>I had a great time in a very impressive rec room.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>extremely impressive rec room</label>
+				<description>I had a great time in an extremely impressive rec room. I could stay there forever.</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+			<li>
+				<label>unbelievably impressive rec room</label>
+				<description>I had a great time in an unbelievably impressive rec room. I could stay there forever.</description>
+				<baseMoodEffect>7</baseMoodEffect>
+			</li>
+			<li>
+				<label>wondrously impressive rec room</label>
+				<description>I had a great time in a wonderful rec room. I could stay there forever.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+  <ThoughtDef>
+    <defName>SleptInBedroom</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>awful bedroom</label>
+        <description>I don't like my bedroom at all.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li IsNull="True" />
+      <!-- dull -->
+      <li IsNull="True" />
+      <!-- mediocre -->
+      <li>
+        <label>decent bedroom</label>
+        <description>My bedroom is very interesting. I like it.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>slightly impressive bedroom</label>
+        <description>My bedroom is actually slightly impressive. I like it.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>impressive bedroom</label>
+        <description>My bedroom is impressive. I love it!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>very impressive bedroom</label>
+        <description>My bedroom is very impressive. This is the best place ever!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>extremely impressive bedroom</label>
+        <description>My bedroom is extremely impressive. This is the best place ever!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>unbelievably impressive bedroom</label>
+        <description>My bedroom is unbelievably impressive. This is the best place ever!</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+      <li>
+        <label>wondrously impressive bedroom</label>
+        <description>My bedroom is the best place one can ever imagine. It's wonderful.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>SleptInBarracks</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>awful barrack</label>
+        <description>I sleep in a shitty barracks. Is privacy so much to ask?</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>dull barrack</label>
+        <description>I sleep in a dull barracks. Is privacy so much to ask?</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>mediocre barrack</label>
+        <description>I sleep in a barracks. Is privacy so much to ask?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>decent barrack</label>
+        <description>Our barracks are decent, but I wish I could have my privacy!</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      <li>
+        <label>slightly impressive barrack</label>
+        <description>I sleep in a nice barrack. I just wish I could have my own private room.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>impressive barrack</label>
+        <description>I'm lucky enough to share an impressive barrack with my fellow colonists. I still wish I could have my own room, though.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>very impressive barrack</label>
+        <description>Wow, my barracks is nice! I would love it if I didn't have to share it.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>extremely impressive barrack</label>
+        <description>My barracks is incredible. If we had privacy I would have no complaints at all.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>unbelievably impressive barrack</label>
+        <description>I can't believe how nice our barracks are! I love my home so much.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>wondrously impressive barrack</label>
+        <description>How did we even manage to create such splendor as this? Am I dreaming?</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  
+</Defs>
