@@ -1,0 +1,704 @@
+==============================================================
+ Changes to ThoughtDefs Made by SheiFoxy's "Grim Reality" Mod
+==============================================================
+ 
+THOUGHTS_MEMORY_DEATH:
+ 
+KnowGuestExecuted 
+  durationDays: 5 (WAS 6)
+  stackLimit: 5 (NO CHANGE)
+  stackedEffectMultiplier: 0.75 (NEW)
+  baseMoodEffect: 1 / -2 / -3 / -5 (WAS -2 / -3 / -5 / -6)
+ 
+KnowColonistExecuted 
+  durationDays: 7.5 (WAS 6)
+  stackedEffectMultiplier: 0.25 (NEW)
+  baseMoodEffect: -1 / -5 / -8 / -10 (WAS -2 / -3 / -5 / -6)
+ 
+KnowPrisonerDiedInnocent 
+  durationDays: 5 (WAS 6)
+  stackLimit: 3 (WAS 5)
+  stackedEffectMultiplier: 0.25 (NEW)
+  baseMoodEffect: -1 (WAS -5)
+ 
+KnowColonistDied 
+  durationDays: 7.5 (WAS 6)
+  stackLimit: 3 (WAS 5)
+  stackedEffectMultiplier: 0.25 (NEW)
+  baseMoodEffect: -5 (WAS -3)
+ 
+BondedAnimalDied 
+  durationDays: 15 (WAS 20)
+  stackedEffectMultiplier: 0.25 (NEW)
+ 
+PawnWithGoodOpinionDied 
+  durationDays: 15 (WAS 20)
+  stackedEffectMultiplier: 0.5 (NEW)
+ 
+PawnWithBadOpinionDied 
+  durationDays: 5 (WAS 10)
+  stackLimit: 3 (WAS 5)
+  stackedEffectMultiplier: 0.25 (NEW)
+  baseMoodEffect: 3 (WAS 10)
+ 
+MySonDied, MyDaughterDied, MyHusbandDied & MyWifeDied 
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -25 (WAS -20)
+ 
+MyFianceDied & MyFianceeDied 
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -22 (WAS -18)
+ 
+MyLoverDied 
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -20 (WAS -16)
+ 
+MyBrotherDied & MySisterDied 
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -20 (WAS -14)
+ 
+MyGrandchildDied 
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -10 (WAS -12)
+ 
+MyFatherDied & MyMotherDied 
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -20 (WAS -8)
+ 
+MyNieceDied & MyNephewDied 
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -8 (WAS -5)
+ 
+MyHalfSiblingDied 
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -10 (WAS -5)
+ 
+MyAuntDied, MyUncleDied, MyGrandparentDied & MyCousinDied 
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -8 (WAS -4)
+ 
+MyKinDied 
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -5 (WAS -4)
+ 
+----------
+ 
+THOUGHTS_MEMORY_EATING:
+ 
+AteLavishMeal 
+  durationDays: 0.5 (WAS 1)
+  stackLimit: 1 (NEW)
+  baseMoodEffect: 10 (WAS 12)
+ 
+AteFineMeal 
+  durationDays: 0.5 (WAS 1)
+  stackLimit: 1 (NEW)
+ 
+AteAwfulMeal 
+  durationDays: 0.5 (WAS 1)
+  stackLimit: 1 (NEW)
+  baseMoodEffect: -3 (WAS -4)
+ 
+AteRawFood 
+  durationDays: 0.5 (WAS 1)
+  stackLimit: 1 (NEW)
+  baseMoodEffect: -5 (WAS -7)
+ 
+AteKibble 
+  durationDays: 0.5 (WAS 1)
+  stackLimit: 1 (NEW)
+  baseMoodEffect: -8 (WAS -12)
+ 
+AteCorpse 
+  stackLimit: 1 (NEW)
+  baseMoodEffect: -10 (WAS -12)
+ 
+AteHumanlikeMeatDirect 
+  durationDays: 1.5 (WAS 1)
+  stackLimit: 3 (NEW)
+  stackedEffectMultiplier: 0.25 (NEW)
+  baseMoodEffect: -25 (WAS -20)
+ 
+AteHumanlikeMeatDirectCannibal 
+  durationDays: 1.5 (WAS 1)
+  stackLimit: 1 (NEW)
+  stackedEffectMultiplier: 0.25 (NEW)
+ 
+AteHumanlikeMeatAsIngredient 
+  durationDays: 1.5 (WAS 1)
+  stackLimit: 3 (NEW)
+  stackedEffectMultiplier: 0.25 (NEW)
+  baseMoodEffect: -20 (WAS -15)
+ 
+AteHumanlikeMeatAsIngredientCannibal 
+  stackLimit: 1 (NEW)
+  stackedEffectMultiplier: 0.25 (NEW)
+ 
+AteInsectMeatDirect 
+  durationDays: 0.5 (WAS 1)
+  stackLimit: 1 (NEW)
+  baseMoodEffect: -3 (WAS -6)
+ 
+AteInsectMeatAsIngredient 
+  durationDays: 0.5 (WAS 1)
+  stackLimit: 3 (NEW)
+  baseMoodEffect: -1 (WAS -3)
+ 
+AteRottenFood 
+  stackLimit: 1 (NEW)
+ 
+----------
+ 
+THOUGHTS_MEMORY_GATHERINGS:
+ 
+GotMarried 
+  baseMoodEffect: 30 (WAS 40)
+ 
+AttendedWedding 
+  durationDays: 15 (WAS 10)
+  stackLimit: 3 (WAS 10)
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: 15 (WAS 20)
+ 
+AttendedParty 
+  durationDays: 7.5 (WAS 10)
+  stackLimit: 3 (WAS 10)
+  stackedEffectMultiplier: 1 (NEW)
+  baseMoodEffect: 5 (WAS 1)
+ 
+----------
+ 
+THOUGHTS_MEMORY_MISC:
+ 
+AteWithoutTable 
+  durationDays: 0.15 (WAS 1)
+  baseMoodEffect: -1 (WAS -3)
+ 
+SleepDisturbed 
+  durationDays: 0.5 (WAS 1)
+  stackLimit: 4 (WAS 3)
+  stackedEffectMultiplier: 0.5 (WAS 1)
+  baseMoodEffect: -2 (WAS -1)
+ 
+NewColonyOptimism 
+  durationDays: 5 (WAS 8)
+ 
+NewColonyHope 
+  durationDays: 5 (WAS 8)
+ 
+SleptOutside, SleptOnGround, SleptInCold & SleptInHeat 
+  durationDays: 0.3 (WAS 1)
+  baseMoodEffect: -2 (WAS -4)
+ 
+KnowPrisonerSold 
+  durationDays: 5 (WAS 4)
+  stackLimit: 1 (WAS 5)
+  baseMoodEffect: -5 (WAS -3)
+ 
+KnowGuestOrganHarvested 
+  durationDays: 5 (WAS 8)
+  stackLimit: 1 (WAS 5)
+ 
+KnowColonistOrganHarvested 
+  durationDays: 7.5 (WAS 8)
+  stackedEffectMultiplier: 0.5 (WAS 0.75)
+  baseMoodEffect: -15 (WAS -5)
+ 
+MyOrganHarvested 
+  durationDays: 15 (WAS 8)
+ 
+WasImprisoned 
+  durationDays: 7.5 (WAS 6)
+ 
+Catharsis 
+  durationDays: 3.5 (WAS 3)
+  baseMoodEffect: 20 (WAS 40)
+ 
+Nuzzled 
+  durationDays: 0.5 (WAS 1)
+  stackLimit: 10 (WAS 3)
+  baseMoodEffect: 2 (WAS 4)
+ 
+KnowBuriedInSarcophagus 
+  durationDays: 3 (WAS 1)
+  stackLimit: 1 (WAS 10)
+  stackedEffectMultiplier: 1 (NEW)
+  baseMoodEffect: 3 (WAS 8)
+ 
+ButcheredHumanlikeCorpse 
+  durationDays: 7.5 (WAS 6)
+  stackLimit: 5 (WAS 10)
+  stackedEffectMultiplier: 0.5 (WAS 0.75)
+  baseMoodEffect: -10 (WAS -6)
+ 
+KnowButcheredHumanlikeCorpse 
+  durationDays: 5 (WAS 6)
+  baseMoodEffect: -5 (WAS -6)
+ 
+ObservedLayingCorpse 
+  durationDays: 0.15 (WAS 0.5)
+  stackLimit: 4 (WAS 3)
+ 
+ObservedLayingRottingCorpse 
+  durationDays: 0.15 (WAS 0.5)
+  stackLimit: 4 (WAS 5)
+  baseMoodEffect: -8 (WAS -6)
+ 
+WitnessedDeathAlly 
+  durationDays: 1 (WAS 2)
+  stackLimit: 3 (WAS 5)
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -10 (WAS -5)
+ 
+WitnessedDeathNonAlly 
+  stackLimit: 3 (WAS 1)
+  stackedEffectMultiplier: 0.4 (NEW)
+ 
+WitnessedDeathFamily 
+  durationDays: 1 (WAS 6)
+  stackLimit: 3 (WAS 1)
+  stackedEffectMultiplier: 0.67 (NEW)
+  baseMoodEffect: -15 (WAS -6)
+ 
+WitnessedDeathBloodlust 
+  durationDays: 3 (WAS 4)
+  stackLimit: 13 (WAS 5)
+  stackedEffectMultiplier: 0.4 (NEW)
+  baseMoodEffect: 3 (WAS 8)
+ 
+KilledHumanlikeBloodlust 
+  durationDays: 3 (WAS 4)
+  stackLimit: 16 (WAS 5)
+  stackedEffectMultiplier: 0.2 (NEW)
+  baseMoodEffect: 10 (WAS 12)
+ 
+DefeatedHostileFactionLeader 
+  durationDays: 3 (WAS 6)
+  stackedEffectMultiplier: 0.5 (NEW)
+ 
+ColonistBanished 
+  durationDays: 7.5 (WAS 6)
+  stackLimit: 3 (WAS 5)
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -4 (WAS -3)
+ 
+ColonistBanishedToDie 
+  durationDays: 7.5 (WAS 6)
+  stackLimit: 3 (WAS 5)
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -8 (WAS -6)
+ 
+PrisonerBanishedToDie 
+  durationDays: 3 (WAS 6)
+  baseMoodEffect: -1 (WAS -4)
+ 
+BondedAnimalBanished 
+  durationDays: 7.5 (WAS 6)
+  stackedEffectMultiplier: 0.5 (NEW)
+  baseMoodEffect: -5 (WAS -6)
+ 
+FailedToRescueRelative 
+  durationDays: 15 (WAS 30)
+  stackLimit: 3 (WAS 5)
+  baseMoodEffect: -20 (WAS -18)
+ 
+RescuedRelative 
+  durationDays: 15 (WAS 30)
+  stackLimit: 3 (WAS 5)
+  baseMoodEffect: 10 (WAS 18)
+ 
+Rescued 
+  durationDays: 15 (WAS 30)
+  stackLimit: 3 (WAS 5)
+  baseMoodEffect: 10 (WAS 18)
+ 
+----------
+ 
+THOUGHTS_MEMORY_ROOMSTATS:
+ 
+AteInImpressiveDiningRoom 
+  durationDays: 0.35 (WAS 1)
+ 
+JoyActivityInImpressiveRecRoom 
+  durationDays: 0.35 (WAS 1)
+ 
+SleptInBedroom 
+  baseMoodEffect: -1 / -- / -- / 2 / 3 / 4 / 5 / 6 / 7 / 8 (WAS -4 / -- / -- / 2 / 3 / 4 / 5 / 6 / 7 / 8)
+ 
+SleptInBarracks 
+  baseMoodEffect: -4 / -3 / -2 / -1 / 0 / 1 / 2 / 3 / 4 / 5 (WAS -7 / -5 / -4 / -3 / -2 / -1 / 1 / 2 / 3 / 4)
+ 
+----------
+ 
+THOUGHTS_MEMORY_SOCIAL:
+ 
+Chitchat 
+  baseOpinionOffset: 1 (WAS 0.66)
+ 
+DeepTalk 
+  stackedEffectMultiplier: 0.95 (WAS 0.9)
+  baseOpinionOffset: 3 (WAS 15)
+ 
+Slighted 
+  stackedEffectMultiplier: 0.95 (WAS 0.9)
+ 
+Insulted 
+  stackedEffectMultiplier: 0.95 (WAS 0.9)
+ 
+InsultedMood 
+  durationDays: 1.5 (WAS 2)
+  stackLimit: 3 (WAS 10)
+  baseMoodEffect: -1 (WAS -5)
+ 
+KindWords 
+  stackedEffectMultiplier: 0.88 (WAS 0.9)
+ 
+KindWordsMood 
+  durationDays: 1.5 (WAS 2)
+  stackLimit: 3 (WAS 10)
+ 
+RapportBuilt 
+  durationDays: 10 (WAS 20)
+ 
+HadAngeringFight 
+  stackedEffectMultiplier: 0.8 (WAS 0.9)
+  baseOpinionOffset: -20 (WAS -22)
+ 
+HadCatharticFight 
+  stackedEffectMultiplier: 0.6 (WAS 0.9)
+  baseOpinionOffset: 30 (WAS 38)
+ 
+BotchedMySurgery 
+  durationDays: 80 (WAS 90)
+  stackedEffectMultiplier: 0.85 (WAS 0.9)
+ 
+RescuedMe 
+  durationDays: 20 (WAS 30)
+  stackedEffectMultiplier: 0.6 (WAS 0.9)
+  baseOpinionOffset: 20 (WAS 15)
+ 
+RecruitedMe 
+  durationDays: 200 (WAS 120)
+ 
+CrashedTogether 
+  durationDays: 10 (WAS 20)
+  stackLimit: 20 (WAS 300)
+ 
+SoldMyLovedOne 
+  durationDays: 25 (WAS 120)
+  baseOpinionOffset: -50 (WAS -10)
+  baseMoodEffect: -20 (WAS -10)
+ 
+SoldMyBondedAnimal 
+  durationDays: 20 (WAS 60)
+  baseOpinionOffset: -30 (WAS -10)
+  baseMoodEffect: -8 (WAS -10)
+ 
+ForcedMeToTakeDrugs 
+  durationDays: 10 (WAS 60)
+  stackLimit: 5 (WAS 10)
+ 
+ForcedMeToTakeDrugsMood 
+  durationDays: 5 (WAS 6)
+  baseMoodEffect: -10 (WAS -20)
+ 
+ForcedMeToTakeLuciferium 
+  durationDays: 6 (WAS 120)
+ 
+ForcedMeToTakeLuciferiumMood 
+  durationDays: 5 (WAS 6)
+  baseMoodEffect: -10 (WAS -20)
+ 
+RebuffedMyRomanceAttempt 
+  stackedEffectMultiplier: 0.5 (WAS 0.9)
+ 
+RebuffedMyRomanceAttemptMood 
+  durationDays: 5 (WAS 3)
+  stackLimit: 1 (WAS 5)
+  baseMoodEffect: -1 (WAS -5)
+ 
+FailedRomanceAttemptOnMe 
+  stackedEffectMultiplier: 0.5 (WAS 0.9)
+  baseOpinionOffset: -5 (WAS -15)
+ 
+FailedRomanceAttemptOnMeLowOpinionMood 
+  durationDays: 1 (WAS 3)
+  stackLimit: 1 (WAS 5)
+  baseMoodEffect: -2 (WAS -3)
+ 
+BrokeUpWithMe 
+  durationDays: 30 (WAS 60)
+  baseOpinionOffset: -30 (WAS -50)
+ 
+BrokeUpWithMeMood 
+  durationDays: 5 (WAS 25)
+  stackLimit: 1 (WAS 5)
+  baseMoodEffect: -10 (WAS -15)
+ 
+CheatedOnMe 
+  durationDays: 70 (WAS 120)
+  baseOpinionOffset: -30 (WAS -70)
+ 
+CheatedOnMeMood 
+  durationDays: 10 (WAS 25)
+  stackLimit: 6 (WAS 10)
+  baseMoodEffect: -10 (WAS -20)
+ 
+DivorcedMe 
+  durationDays: 80 (WAS 180)
+  baseOpinionOffset: -50 (WAS -70)
+ 
+DivorcedMeMood 
+  durationDays: 20 (WAS 30)
+  stackLimit: 1 (WAS 10)
+ 
+RejectedMyProposal 
+  durationDays: 30 (WAS 60)
+  stackedEffectMultiplier: 0.95 (WAS 0.9)
+ 
+RejectedMyProposalMood 
+  durationDays: 10 (WAS 25)
+  stackedEffectMultiplier: 0.95 (WAS 0.9)
+  baseMoodEffect: -20 (WAS -18)
+ 
+IRejectedTheirProposal 
+  durationDays: 30 (WAS 60)
+  stackedEffectMultiplier: 0.95 (WAS 0.9)
+  baseOpinionOffset: -10 (WAS -15)
+ 
+HoneymoonPhase 
+  baseMoodEffect: 15 (NEW)
+ 
+GotSomeLovin 
+  durationDays: 1 (WAS 3)
+  stackLimit: 3 (WAS 10)
+  stackedEffectMultiplier: 0.2 (WAS 0.75)
+  baseMoodEffect: 10 (WAS 8)
+  baseOpinionOffset: 10 (WAS 6)
+ 
+KilledMyFriend 
+  durationDays: 80 (WAS 60)
+  baseOpinionOffset: -50 (WAS -35)
+ 
+KilledMyRival 
+  durationDays: 80 (WAS 60)
+ 
+KilledMyLover 
+  durationDays: 80 (WAS 120)
+  baseOpinionOffset: -65 (WAS -50)
+ 
+KilledMyFiance 
+  durationDays: 80 (WAS 120)
+ 
+KilledMySpouse 
+  durationDays: 80 (WAS 120)
+  baseOpinionOffset: -50 (WAS -65)
+ 
+KilledMyFather, KilledMyMother, KilledMySon, KilledMyDaughter, KilledMyBrother & KilledMySister 
+  durationDays: 80 (WAS 120)
+ 
+KilledMyKin 
+  durationDays: 80 (WAS 60)
+  baseOpinionOffset: -20 (WAS -15)
+ 
+KilledMyBondedAnimal 
+  durationDays: 80 (WAS 60)
+  baseOpinionOffset: -20 (WAS -10)
+ 
+----------
+ 
+THOUGHTS_MEMORY_SPECIAL:
+ 
+ArtifactMoodBoost 
+  stackLimit: 4 (WAS 3)
+  stackedEffectMultiplier: 0.4 (NEW)
+ 
+----------
+ 
+THOUGHTS_SITUATION_GENERAL:
+ 
+EnvironmentDark 
+  baseMoodEffect: -3 (WAS -5)
+ 
+ApparelDamaged 
+  baseMoodEffect: -1 / -3 (WAS -3 / -5)
+ 
+DeadMansApparel 
+  baseMoodEffect: -1 / -2 / -3 / -5 (WAS -5 / -8 / -11 / -14)
+ 
+HumanLeatherApparelSad 
+  baseMoodEffect: -3 / -5 / -5 / -10 (WAS -2 / -4 / -6 / -8)
+ 
+HumanLeatherApparelHappy 
+  baseMoodEffect: 1 / 2 / 5 / 8 (WAS 2 / 4 / 6 / 8)
+ 
+EnvironmentCold 
+  baseMoodEffect: -5/ -8 / -10 / -20 (WAS -4 / -8 / -12 / -16)
+ 
+EnvironmentHot 
+  baseMoodEffect: -5 / -8 / -10 / -20 (WAS -4 / -8 / -12 / -16)
+ 
+----------
+ 
+THOUGHTS_SITUATION_NEEDS:
+ 
+NeedFood 
+  baseMoodEffect: -5 / -15 / -20 / -25 / -30 / -40 / -50 (WAS -6 / -12 / -20 / -26 / -32 / -38 / -44)
+ 
+NeedRest 
+  baseMoodEffect: -5 / -10 / -15 (WAS -6 / -12 / -18)
+ 
+NeedComfort 
+  baseMoodEffect: -3 / 3 / 5 / 8 / 10 (WAS -3 / 4 / 6 / 8 / 10)
+ 
+NeedBeauty 
+  baseMoodEffect: -10 / -8 / -5 / 5 / 8 / 10 (WAS -15 / -10 / -5 / 5 / 10 / 15)
+ 
+NeedRoomSize 
+  baseMoodEffect: -3 / -1 / 3 (WAS -10 / -5 / 5)
+ 
+----------
+ 
+THOUGHTS_SITUATION_ROOMSTATS:
+ 
+PrisonCell 
+  baseMoodEffect: -5 / -- / -- / 0 / 1 / 2 / 3 / 4 / 5 / 6 (WAS -4 / -- / -- / 2 / 3 / 4 / 5 / 6 / 7 / 8)
+ 
+PrisonBarracks 
+  baseMoodEffect: -8 / -3 / -- / -- / 0 / 1 / 2 / 3 / 4 / 5 (WAS -4 / -2 / -- / -- / 1 / 2 / 3 / 4 / 5 / 6)
+ 
+HospitalPatientRoomStats 
+  baseMoodEffect: -8 / -3 / -- / -- / 1 / 2 / 3 / 4 / 5 / 6 (WAS -4 / -2 / -- / -- / 1 / 2 / 3 / 4 / 5 / 6)
+ 
+----------
+ 
+THOUGHTS_SITUATION_SOCIAL:
+ 
+Affair 
+  baseOpinionOffset: -30 (WAS -70)
+ 
+Disfigured 
+  baseOpinionOffset: 3 (WAS -15)
+ 
+TeetotalerVsAddict 
+  baseOpinionOffset: -15 (WAS -25)
+ 
+Ugly 
+  baseOpinionOffset: -15 / -30 (WAS -20 / -40)
+ 
+AnnoyingVoice 
+  baseOpinionOffset: -20 (WAS -25)
+ 
+ButcheredHumanlikeCorpseOpinion 
+  baseOpinionOffset: -5 (WAS -10)
+ 
+AteRawHumanlikeMeat 
+  baseOpinionOffset: -20 (WAS -5)
+ 
+SoldPrisoner 
+  baseOpinionOffset: -8 (WAS -15)
+ 
+ExecutedPrisoner 
+  baseOpinionOffset: -5 (WAS -8)
+ 
+KilledColonist 
+  baseOpinionOffset: -30 (WAS -10)
+ 
+KilledColonyAnimal 
+  baseOpinionOffset: -10 (WAS -5)
+ 
+----------
+ 
+THOUGHTS_SITUATION_SPECIAL:
+ 
+ColonistLeftUnburied 
+  baseMoodEffect: -15 (WAS -10)
+ 
+Naked 
+  baseMoodEffect: -5 (WAS -6)
+ 
+PsychicDrone 
+  baseMoodEffect: 15 / -7 / -15 / -25 / -50 (WAS 16 / -12 / -22 / -30 / -40)
+ 
+Aurora 
+  baseMoodEffect: 12 (WAS 14)
+ 
+----------
+ 
+THOUGHTS_SITUATION_TRAITS:
+ 
+BrawlerUnhappy 
+  baseMoodEffect: -10 (WAS -20)
+ 
+HappyNude 
+  baseMoodEffect: 15 (WAS 20)
+ 
+NightOwlDuringTheDay 
+  baseMoodEffect: -8 (WAS -10)
+ 
+NightOwlDuringTheNight 
+  baseMoodEffect: 12 (WAS 16)
+ 
+----------
+ 
+THOUGHTDEFS WHICH NO LONGER AFFECT PSYCHOPATHS:
+ 
+Thoughts_Memory_Death:
+  PawnWithBadOpinionDied
+  MySonDied
+  MyDaughterDied
+  MyHusbandDied
+  MyWifeDied
+  MyFianceDied
+  MyFianceeDied
+  MyLoverDied
+  MyBrotherDied
+  MySisterDied
+  MyGrandchildDied
+  MyFatherDied
+  MyMotherDied
+  MyNieceDied
+  MyNephewDied
+  MyHalfSiblingDied
+  MyAuntDied
+  MyUncleDied
+  MyGrandparentDied
+  MyCousinDied
+  MyKinDied
+ 
+Thoughts_Memory_Social:
+  SoldMyLovedOne
+  RebuffedMyRomanceAttempt
+  RebuffedMyRomanceAttemptMood
+  FailedRomanceAttemptOnMe
+  FailedRomanceAttemptOnMeLowOpinionMood
+  BrokeUpWithMe
+  BrokeUpWithMeMood
+  CheatedOnMe
+  CheatedOnMeMood
+  DivorcedMe
+  DivorcedMeMood
+  RejectedMyProposal
+  RejectedMyProposalMood
+  IRejectedTheirProposal
+  HoneymoonPhase
+  KilledMyFriend
+  KilledMyRival
+  KilledMyLover
+  KilledMyFiance
+  KilledMySpouse
+  KilledMyFather
+  KilledMyMother
+  KilledMySon
+  KilledMyDaughter
+  KilledMyBrother
+  KilledMySister
+  KilledMyKin
+  KilledMyBondedAnimal
+ 
+Thoughts_Situation_Social:
+  Affair
+  Incestuous
+  Disfigured
+  OpinionOfMyLover
+  WantToSleepWithSpouseOrLover
