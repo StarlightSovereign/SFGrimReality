@@ -333,11 +333,11 @@ SleptInBarracks
 THOUGHTS_MEMORY_SOCIAL:
  
 Chitchat 
-  baseOpinionOffset: 1 (WAS 0.66)
+  baseOpinionOffset: 5 (WAS 0.66)
  
 DeepTalk 
   stackedEffectMultiplier: 0.95 (WAS 0.9)
-  baseOpinionOffset: 3 (WAS 15)
+  baseOpinionOffset: 12 (WAS 15)
  
 Slighted 
   stackedEffectMultiplier: 0.95 (WAS 0.9)
@@ -381,8 +381,9 @@ RecruitedMe
   durationDays: 200 (WAS 120)
  
 CrashedTogether 
-  durationDays: 10 (WAS 20)
+  durationDays: 60 (WAS 20)
   stackLimit: 20 (WAS 300)
+  nullfying trait: psychopath
  
 SoldMyLovedOne 
   durationDays: 25 (WAS 120)
